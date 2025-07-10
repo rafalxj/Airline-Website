@@ -1,0 +1,64 @@
+﻿Crew ID,Crew Members Name,FlightID,Airline,FlightNumber,DepartureAirport,ArrivalAirport,DepartureDateTime,ArrivalDateTime,AircraftModel,Status
+C004,Reem Al-Suwaidi,F177,Flyadeal Airlines,F3153,King Abdulaziz International,Jeddah King Abdulaziz International (KSA),4/2/2024 1:05,4/2/2024 8:05,Boeing 778,Cancelled
+C005,Abdullah Al-Rashid,F177,Flyadeal Airlines,F3153,King Abdulaziz International,Jeddah King Abdulaziz International (KSA),4/2/2024 1:05,4/2/2024 8:05,Boeing 778,Cancelled
+C006,Sara Al-Subaie,F177,Flyadeal Airlines,F3153,King Abdulaziz International,Jeddah King Abdulaziz International (KSA),4/2/2024 1:05,4/2/2024 8:05,Boeing 778,Cancelled
+C007,Zayd Al-Harbi,F198,Saudi Airlines,SV183,King Fahd International,Miami International Airport (USA),4/2/2024 3:13,4/2/2024 17:13,Boeing 657,On Time
+C008,Laila Al-Mutairi,F198,Saudi Airlines,SV183,King Fahd International,Miami International Airport (USA),4/2/2024 3:13,4/2/2024 17:13,Boeing 657,On Time
+C009,Majed Al-Qutub,F198,Saudi Airlines,SV183,King Fahd International,Miami International Airport (USA),4/2/2024 3:13,4/2/2024 17:13,Boeing 657,On Time
+C010,Yasmin Al-Sudairy,F104,Saudi Airlines,SV172,King Fahd International,Miami International Airport (USA),4/2/2024 17:41,4/3/2024 7:41,Boeing 737,On Time
+C011,Khalid Al-Nashwan,F104,Saudi Airlines,SV172,King Fahd International,Miami International Airport (USA),4/2/2024 17:41,4/3/2024 7:41,Boeing 737,On Time
+C012,Mona Al-Saadi,F104,Saudi Airlines,SV172,King Fahd International,Miami International Airport (USA),4/2/2024 17:41,4/3/2024 7:41,Boeing 737,On Time
+C013,Saeed Al-Kahtani,F141,Saudi Airlines,SV151,King Fahd International,Narita International Airport (Japan),4/3/2024 13:35,4/3/2024 22:35,Boeing 737,Delayed
+C014,Dima Al-Ahmad,F141,Saudi Airlines,SV151,King Fahd International,Narita International Airport (Japan),4/3/2024 13:35,4/3/2024 22:35,Boeing 737,Delayed
+C015,Tariq Al-Johani,F141,Saudi Airlines,SV151,King Fahd International,Narita International Airport (Japan),4/3/2024 13:35,4/3/2024 22:35,Boeing 737,Delayed
+C016,Rania Al-Ghamdi,F174,Flyadeal Airlines,F3172,King Abdulaziz International,Singapore Changi Airport (Singapore),4/5/2024 8:18,4/5/2024 15:18,Airbus A330,On Time
+C017,Anas Al-Shahrani,F174,Flyadeal Airlines,F3172,King Abdulaziz International,Singapore Changi Airport (Singapore),4/5/2024 8:18,4/5/2024 15:18,Airbus A330,On Time
+C018,Samira Al-Salem,F174,Flyadeal Airlines,F3172,King Abdulaziz International,Singapore Changi Airport (Singapore),4/5/2024 8:18,4/5/2024 15:18,Airbus A330,On Time
+C019,Nabil Al-Qurashi,F118,Riyadh Air,RX127,King Abdulaziz International,Narita International Airport (Japan),4/7/2024 15:47,4/8/2024 0:47,Boeing 737,Cancelled
+C020,Hala Al-Turki,F118,Riyadh Air,RX127,King Abdulaziz International,Narita International Airport (Japan),4/7/2024 15:47,4/8/2024 0:47,Boeing 737,Cancelled
+C021,Zain Al-Otaibi,F118,Riyadh Air,RX127,King Abdulaziz International,Narita International Airport (Japan),4/7/2024 15:47,4/8/2024 0:47,Boeing 737,Cancelled
+C022,Iman Al-Nasser,F107,Flynas Airlines,XY110,Prince Mohammed bin Abdulaziz International,Paris Charles de Gaulle Airport (France),4/7/2024 17:25,4/8/2024 1:25,Boeing 777,Cancelled
+C023,Adel Al-Muhanna,F107,Flynas Airlines,XY110,Prince Mohammed bin Abdulaziz International,Paris Charles de Gaulle Airport (France),4/7/2024 17:25,4/8/2024 1:25,Boeing 777,Cancelled
+C024,Nadia Al-Fayez,F107,Flynas Airlines,XY110,Prince Mohammed bin Abdulaziz International,Paris Charles de Gaulle Airport (France),4/7/2024 17:25,4/8/2024 1:25,Boeing 777,Cancelled
+C025,Bilal Al-Ajmi,F135,Saudi Airlines,SV195,King Fahd International,Barcelona-El Prat Airport (Spain),4/8/2024 10:26,4/8/2024 18:26,Airbus A320,Delayed
+C026,Fadia Al-Sabah,F135,Saudi Airlines,SV195,King Fahd International,Barcelona-El Prat Airport (Spain),4/8/2024 10:26,4/8/2024 18:26,Airbus A320,Delayed
+C027,Yara Al-Faris,F135,Saudi Airlines,SV195,King Fahd International,Barcelona-El Prat Airport (Spain),4/8/2024 10:26,4/8/2024 18:26,Airbus A320,Delayed
+C028,Jamal Al-Mansour,F110,Flyadeal Airlines,F3171,King Abdulaziz International,Dubai International Airport (UAE),4/10/2024 14:15,4/10/2024 16:15,Airbus A320,On Time
+C029,Sawsan Al-Zahrani,F110,Flyadeal Airlines,F3171,King Abdulaziz International,Dubai International Airport (UAE),4/10/2024 14:15,4/10/2024 16:15,Airbus A320,On Time
+C030,Ibrahim Al-Khaldi,F110,Flyadeal Airlines,F3171,King Abdulaziz International,Dubai International Airport (UAE),4/10/2024 14:15,4/10/2024 16:15,Airbus A320,On Time
+C001,Fahad Al-Shammari,F106,Flyadeal Airlines,F3102,King Fahd International,Jeddah King Abdulaziz International (KSA),4/11/2024 13:34,4/11/2024 14:34,Boeing 737,Cancelled
+C002,Noura Al-Dosari,F106,Flyadeal Airlines,F3102,King Fahd International,Jeddah King Abdulaziz International (KSA),4/11/2024 13:34,4/11/2024 14:34,Boeing 737,Cancelled
+C003,Omar Al-Fahad,F106,Flyadeal Airlines,F3102,King Fahd International,Jeddah King Abdulaziz International (KSA),4/11/2024 13:34,4/11/2024 14:34,Boeing 737,Cancelled
+C004,Reem Al-Suwaidi,F115,Flynas Airlines,XY121,King Fahd International,London Heathrow Airport (UK),4/13/2024 13:15,4/13/2024 20:15,Airbus A320,Cancelled
+C005,Abdullah Al-Rashid,F115,Flynas Airlines,XY121,King Fahd International,London Heathrow Airport (UK),4/13/2024 13:15,4/13/2024 20:15,Airbus A320,Cancelled
+C006,Sara Al-Subaie,F115,Flynas Airlines,XY121,King Fahd International,London Heathrow Airport (UK),4/13/2024 13:15,4/13/2024 20:15,Airbus A320,Cancelled
+C007,Zayd Al-Harbi,F185,Saudi Airlines,SV178,King Abdulaziz International,Paris Charles de Gaulle Airport (France),4/15/2024 21:20,4/16/2024 5:20,Airbus A320,On Time
+C008,Laila Al-Mutairi,F185,Saudi Airlines,SV178,King Abdulaziz International,Paris Charles de Gaulle Airport (France),4/15/2024 21:20,4/16/2024 5:20,Airbus A320,On Time
+C009,Majed Al-Qutub,F185,Saudi Airlines,SV178,King Abdulaziz International,Paris Charles de Gaulle Airport (France),4/15/2024 21:20,4/16/2024 5:20,Airbus A320,On Time
+C010,Yasmin Al-Sudairy,F139,Flynas Airlines,XY185,King Khalid International,Jeddah King Abdulaziz International (KSA),4/16/2024 18:47,4/16/2024 19:47,Boeing 777,Cancelled
+C011,Khalid Al-Nashwan,F139,Flynas Airlines,XY185,King Khalid International,Jeddah King Abdulaziz International (KSA),4/16/2024 18:47,4/16/2024 19:47,Boeing 777,Cancelled
+C012,Mona Al-Saadi,F139,Flynas Airlines,XY185,King Khalid International,Jeddah King Abdulaziz International (KSA),4/16/2024 18:47,4/16/2024 19:47,Boeing 777,Cancelled
+C013,Saeed Al-Kahtani,F149,Flynas Airlines,XY176,Prince Mohammed bin Abdulaziz International,Miami International Airport (USA),4/17/2024 5:39,4/17/2024 19:39,Boeing 737,On Time
+C014,Dima Al-Ahmad,F149,Flynas Airlines,XY176,Prince Mohammed bin Abdulaziz International,Miami International Airport (USA),4/17/2024 5:39,4/17/2024 19:39,Boeing 737,On Time
+C015,Tariq Al-Johani,F149,Flynas Airlines,XY176,Prince Mohammed bin Abdulaziz International,Miami International Airport (USA),4/17/2024 5:39,4/17/2024 19:39,Boeing 737,On Time
+C016,Rania Al-Ghamdi,F166,Flyadeal Airlines,F3157,King Abdulaziz International,Dubai International Airport (UAE),4/20/2024 15:04,4/20/2024 17:04,Airbus A320,On Time
+C017,Anas Al-Shahrani,F166,Flyadeal Airlines,F3157,King Abdulaziz International,Dubai International Airport (UAE),4/20/2024 15:04,4/20/2024 17:04,Airbus A320,On Time
+C018,Samira Al-Salem,F166,Flyadeal Airlines,F3157,King Abdulaziz International,Dubai International Airport (UAE),4/20/2024 15:04,4/20/2024 17:04,Airbus A320,On Time
+C019,Nabil Al-Qurashi,F178,Flyadeal Airlines,F3194,King Abdulaziz International,Singapore Changi Airport (Singapore),4/21/2024 6:21,4/21/2024 13:21,Airbus A321,On Time
+C020,Hala Al-Turki,F178,Flyadeal Airlines,F3194,King Abdulaziz International,Singapore Changi Airport (Singapore),4/21/2024 6:21,4/21/2024 13:21,Airbus A321,On Time
+C021,Zain Al-Otaibi,F178,Flyadeal Airlines,F3194,King Abdulaziz International,Singapore Changi Airport (Singapore),4/21/2024 6:21,4/21/2024 13:21,Airbus A321,On Time
+C022,Iman Al-Nasser,F184,Saudi Airlines,SV119,King Fahd International,HongKong International Airport (Hong Kong),4/21/2024 7:04,4/21/2024 15:04,Boeing 737,Cancelled
+C023,Adel Al-Muhanna,F184,Saudi Airlines,SV119,King Fahd International,HongKong International Airport (Hong Kong),4/21/2024 7:04,4/21/2024 15:04,Boeing 737,Cancelled
+C024,Nadia Al-Fayez,F184,Saudi Airlines,SV119,King Fahd International,HongKong International Airport (Hong Kong),4/21/2024 7:04,4/21/2024 15:04,Boeing 737,Cancelled
+C025,Bilal Al-Ajmi,F179,Flyadeal Airlines,F3189,King Abdulaziz International,Amsterdam Schiphol Airport (Netherlands),4/22/2024 14:23,4/22/2024 21:23,Boeing 738,Cancelled
+C026,Fadia Al-Sabah,F179,Flyadeal Airlines,F3189,King Abdulaziz International,Amsterdam Schiphol Airport (Netherlands),4/22/2024 14:23,4/22/2024 21:23,Boeing 738,Cancelled
+C027,Yara Al-Faris,F179,Flyadeal Airlines,F3189,King Abdulaziz International,Amsterdam Schiphol Airport (Netherlands),4/22/2024 14:23,4/22/2024 21:23,Boeing 738,Cancelled
+C028,Jamal Al-Mansour,F111,Riyadh Air,RX116,King Fahd International,CapeTown International Airport (South Africa),4/25/2024 2:04,4/25/2024 12:04,Airbus A320,Cancelled
+C029,Sawsan Al-Zahrani,F111,Riyadh Air,RX116,King Fahd International,CapeTown International Airport (South Africa),4/25/2024 2:04,4/25/2024 12:04,Airbus A320,Cancelled
+C030,Ibrahim Al-Khaldi,F111,Riyadh Air,RX116,King Fahd International,CapeTown International Airport (South Africa),4/25/2024 2:04,4/25/2024 12:04,Airbus A320,Cancelled
+C001,Fahad Al-Shammari,F126,Saudi Airlines,SV107,King Abdulaziz International,Narita International Airport (Japan),4/25/2024 19:35,4/26/2024 4:35,Boeing 777,Cancelled
+C002,Noura Al-Dosari,F126,Saudi Airlines,SV107,King Abdulaziz International,Narita International Airport (Japan),4/25/2024 19:35,4/26/2024 4:35,Boeing 777,Cancelled
+C003,Omar Al-Fahad,F126,Saudi Airlines,SV107,King Abdulaziz International,Narita International Airport (Japan),4/25/2024 19:35,4/26/2024 4:35,Boeing 777,Cancelled
+C004,Reem Al-Suwaidi,F195,Saudi Airlines,SV163,King Abdulaziz International,Sydney Kingsford Smith Airport (Australia),4/27/2024 5:03,4/27/2024 17:03,Boeing 737,Cancelled
+C005,Abdullah Al-Rashid,F195,Saudi Airlines,SV163,King Abdulaziz International,Sydney Kingsford Smith Airport (Australia),4/27/2024 5:03,4/27/2024 17:03,Boeing 737,Cancelled
+C006,Sara Al-Subaie,F195,Saudi Airlines,SV163,King Abdulaziz International,Sydney Kingsford Smith Airport (Australia),4/27/2024 5:03,4/27/2024 17:03,Boeing 737,Cancelled

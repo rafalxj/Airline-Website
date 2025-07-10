@@ -1,0 +1,1 @@
+https://api.stats.gov.sa/v1/stats/DPV_UMRA_PLMUMRA0101_02?format=CSV

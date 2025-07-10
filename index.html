@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Table</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      padding: 40px;
+    }
+
+    .table-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      overflow-x: auto;
+    }
+
+    .table-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      border-bottom: 2px solid #eee;
+    }
+
+    .table-header h2 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .table-header input[type="search"] {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      width: 200px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+    }
+
+    th, td {
+      padding: 14px 16px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+      font-size: 14px;
+    }
+
+    th {
+      background-color: #f5f5f5;
+      color: #333;
+      font-weight: 600;
+    }
+
+    tbody tr:hover {
+      background-color: #fafafa;
+    }
+
+    @media screen and (max-width: 768px) {
+      .table-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .table-header input[type="search"] {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="table-container">
+    <div class="table-header">
+      <h2>Product Table</h2>
+      <input type="search" id="searchBox" placeholder="Search..." />
+    </div>
+
+    <table id="csvTable"></table>
+  </div>
+
+  <script>
+  fetch('data.csv')
+    .then(response => response.text())
+    .then(csv => {
+      const parsed = Papa.parse(csv, {
+        header: true,
+        skipEmptyLines: true
+      });
+
+      const headers = Object.keys(parsed.data[0]);
+      const table = document.getElementById('csvTable');
+
+      // Add header row
+      const headerRow = document.createElement('tr');
+      headers.forEach(header => {
+        const th = document.createElement('th');
+        th.textContent = header;
+        headerRow.appendChild(th);
+      });
+      table.appendChild(headerRow);
+
+      // Add data rows
+      parsed.data.forEach(row => {
+        const tr = document.createElement('tr');
+        headers.forEach(key => {
+          const td = document.createElement('td');
+          td.textContent = row[key];
+          tr.appendChild(td);
+        });
+        table.appendChild(tr);
+        // Store all rows globally for filtering
+        const allRows = Array.from(table.querySelectorAll('tr')).slice(1); // skip header
+        document.getElementById('searchBox').addEventListener('input', function () { 
+            const value = this.value.toLowerCase();
+            allRows.forEach(row => {
+                const match = Array.from(row.children).some(td =>
+                 td.textContent.toLowerCase().includes(value)
+                 );
+                 row.style.display = match ? '' : 'none';
+                 });
+            });
+
+      });
+    })
+    .catch(error => {
+      console.error('Error parsing CSV:', error);
+    });
+</script>
+</body>
+</html>
